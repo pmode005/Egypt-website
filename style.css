@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(233, 138, 22);
+     font-family: 'Times New Roman', Times, serif;
+     border: 3px red dashed;
+     margin: 20px;
+}
+h1 {
+    color: rgb(74, 109, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p {
+    color: rgb(41, 110, 101);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+
+}
+a {
+    color: rgb(255, 0, 0);
+    
+}
+nav ul {
+    background-color: blanchedalmond;
+    border-color:darkslategray ;
+    border-style: dashed;
+    border-width: 4px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: firebrick;
+
+}
+nav ul li a {
+    color: aqua;
+    text-decoration: none;
+
+}
+img {
+border-radius: 30px;
+}
+table,td {
+border: 5px solid rgb(9, 5, 243);
+
+}
+table tr {
+    background-color: rgb(64, 223, 156);
+
+}
+table td {
+    color: rgb(5, 88, 243);
+    padding: 30px;
+    font-size: large;
+}
+#video {
+    top: 100%;
+    bottom: 100%;
+    right: 100%;
+    left: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -999;
+    
+}
